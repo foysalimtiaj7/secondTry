@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', serif;
+  }
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color:aquamarine;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 17px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: blue;
+    font-weight: 700;
+      
+}
+
+a:hover{
+    color:red;
+    background-color: rgb(7, 212, 144);
+   
+}
+
+ul li{
+    float: left;
+}
+.dropContain li{
+    float: none;
+}
+.dropContain{
+    position: absolute;
+    display: none;
+   
+}
+.dropContain a{
+    width: 100%;
+}
+#menu{
+    margin-left: 25%;
+}
+
+#contact{
+    float: right;
+    padding-right: 70px;
+   
+}
+.drop #contact{
+    margin-right: 90px;
+}
+#bars{
+    float: right;
+    display: none;
+}
+.drop:hover .dropContain{
+    display: block;
+    
+}
+.card{
+    margin: 5%;
+    border: 2px solid black;
+    box-shadow: 3px 3px 4px black;
+    padding: 60px;
+    border-radius: 20px;
+    margin-right: 400px;
+}
+.card2{
+    border: 2px solid purple;
+    border-radius: 20px;
+    text-align: center;
+    margin: 12%;
+    padding: 20px;
+    box-shadow: 3px 3px 4px purple;
+}
+
+input ,button{
+    padding: 10px 15px;
+    margin-top: 20px;
+}
